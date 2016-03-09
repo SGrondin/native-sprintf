@@ -33,10 +33,9 @@ vsprintf('%s', ['foo'])
 ```
 
 ----
-> :copyright: [www.sgrondin.com](https://www.sgrondin.com/) &nbsp;&middot;&nbsp;
+> :copyright: [simongrondin.name](http://simongrondin.name/) &nbsp;&middot;&nbsp;
 > License: [ISC](LICENSE) &nbsp;&middot;&nbsp;
 > Github: [@sgrondin](https://github.com/sgrondin) &nbsp;&middot;&nbsp;
-> Twitter: [@sgrondin](https://twitter.com/sgrondin)
 
 [license-url]: http://choosealicense.com/licenses/isc/
 
