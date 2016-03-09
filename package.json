@@ -1,0 +1,42 @@
+{
+  "name": "native-sprintf",
+  "description": "unnamed package",
+  "author": "Simon Grondin <github@simongrondin.name> (http://simongrondin.name/)",
+  "homepage": "https://github.com/sgrondin/native-sprintf",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sgrondin/native-sprintf.git"
+  },
+  "license": "ISC",
+  "main": "lib/index.js",
+  "keywords": [
+    "native-sprintf"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "files": [
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/sgrondin/native-sprintf/issues"
+  },
+  "scripts": {
+    "test": "tap test/*.js | tap-mocha-reporter spec",
+    "pretest": "standard && echint",
+    "coverage": "tap test/*.js --coverage",
+    "codeclimate": "nyc report --reporter=text-lcov | codeclimate-test-reporter",
+    "prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "codeclimate-test-reporter": "^0.3.1",
+    "cz-conventional-changelog": "^1.1.5",
+    "echint": "^1.5.3",
+    "nyc": "^6.0.0",
+    "standard": "^6.0.8",
+    "tap": "^5.7.0",
+    "tap-mocha-reporter": "0.0.24"
+  },
+  "dependencies": {
+  }
+}
