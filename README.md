@@ -14,19 +14,6 @@
 npm install --save native-sprintf
 ```
 
-## Usage
-
-```
-
-  Usage: native-sprintf [options] <files ...>
-
-  Options:
-
-    -h, --help     output usage information
-    -V, --version  output the version number
-
-```
-
 ## API
 
 ### sprintf()
